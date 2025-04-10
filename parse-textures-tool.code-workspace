@@ -1,0 +1,10 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+  ],
+  "settings": {
+    "vitest.commandLine": "npx vitest"
+  },
+}

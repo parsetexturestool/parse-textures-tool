@@ -1,0 +1,47 @@
+{
+  "name": "parse-textures-tool",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://https://techartmat.github.io/parse-textures-tool/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.487.0",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "@vitest/coverage-v8": "^2.1.6",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "gh-pages": "^6.2.0",
+    "globals": "^15.12.0",
+    "happy-dom": "^15.11.7",
+    "prettier": "3.3.3",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.14.0",
+    "vite": "^5.4.10",
+    "vitest": "^2.1.6"
+  }
+}
