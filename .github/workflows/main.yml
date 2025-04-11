@@ -1,5 +1,12 @@
 name: parse-textures-tool-cd
-on: push
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
